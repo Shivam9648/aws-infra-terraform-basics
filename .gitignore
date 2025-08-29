@@ -1,0 +1,20 @@
+# Local terraform folders
+.terraform/
+.terraform.lock.hcl
+
+# State files (never push to git)
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local output files
+*.txt
+
